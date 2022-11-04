@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:context=".SecondFragment">
+
+    <CheckBox
+        android:id="@+id/checkBoxfatigue"
+        android:layout_width="109dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="289dp"
+        android:layout_marginBottom="101dp"
+        android:text="Fatigue" />
+
+    <CheckBox
+        android:id="@+id/checkBoxvomitting"
+        android:layout_width="109dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="289dp"
+        android:layout_marginBottom="156dp"
+        android:text="Vomiting" />
+
+    <CheckBox
+        android:id="@+id/checkBoxdiarrhea"
+        android:layout_width="109dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="288dp"
+        android:layout_marginBottom="208dp"
+        android:text="Diarrhea" />
+
+    <CheckBox
+        android:id="@+id/checkBoxcough"
+        android:layout_width="109dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="288dp"
+        android:layout_marginBottom="261dp"
+        android:text="Cough" />
+
+    <CheckBox
+        android:id="@+id/checkBoxheadache"
+        android:layout_width="109dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="288dp"
+        android:layout_marginBottom="314dp"
+        android:text="Headache" />
+
+    <CheckBox
+        android:id="@+id/checkBoxfever"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="332dp"
+        android:layout_marginBottom="367dp"
+        android:text="Fever" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="183dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="114dp"
+        android:layout_marginBottom="552dp"
+        tools:src="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="149dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="129dp"
+        android:layout_marginBottom="491dp"
+        android:text="Symptomps"
+        android:textSize="25dp" />
+
+    <CheckBox
+        android:id="@+id/checkBoxdizzy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="334dp"
+        android:layout_marginBottom="421dp"
+        android:text="Dizzy" />
+
+    <Button
+        android:id="@+id/donesymtomps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="310dp"
+        android:layout_marginBottom="37dp"
+        android:text="Done" />
+
+</RelativeLayout>
+
+
+
+
+
+
