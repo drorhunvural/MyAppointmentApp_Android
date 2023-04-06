@@ -10,7 +10,7 @@ import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
-
+// I changed here at 4:10 PM
 public class MainActivity extends AppCompatActivity {
     TextView textView2,textView7;
     SharedPreferences sharedPreferences;
