@@ -16,7 +16,7 @@ import android.widget.CheckBox;
 import android.widget.ImageView;
 import android.widget.Toast;
 
-
+// Sample comment
 public class SecondFragment extends Fragment {
 
     SharedPreferences sharedPreferences;
